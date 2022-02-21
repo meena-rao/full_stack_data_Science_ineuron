@@ -1,0 +1,45 @@
+
+TASK
+
+HINT: Use exception handling, class concept, logging, modular approach
+
+1. Download from https://archive.ics.uci.edu/ml/datasets/bag+of+words
+
+2. Perform the following tasks:
+   WA function to read a file and return (word, count of word occurance)
+   
+   sample o/p - [(apple,1), (kmr, 10), (zee, 2)]
+   
+   Means 'apple'  occurs once
+   'kmr' occurs 10 times etc.
+   
+   
+3. Perform reduce operation to get count of all words starting with same alphabet 
+
+   Sample o/p - [(a,50), (b,45)....(z,10)] means there are 50 words starting with a . 
+
+
+4. Try to filter out all words from dataset 
+    means from each word remove special charecters if any.
+    sample i/p- 
+    .001.abstract
+    .002
+    first!
+    school
+   
+   o/p
+   abstract
+    first
+    school
+
+5. Read all 5 files of repository.
+    Create tuple set of all the records available in all the 5 files and 
+    Then store it in sqlite db.
+    
+    sample o/p- (aah,>-, sdfsdf, dfs, '7jh') 
+    
+    Here aah is from file1
+    >- is from file2
+    sdsdf from file3
+    dfs from file4
+    7jh from file5
